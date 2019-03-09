@@ -9,5 +9,6 @@ import com.webproject.feeds.model.Post;
 
 public interface CommentRepository extends JpaRepository<Comment, Long> {
 	List<Comment> findByPostId(long postId);
+	List<Comment> findByPostIdOrderByDateCreatedDesc(long postId);
 	
 }

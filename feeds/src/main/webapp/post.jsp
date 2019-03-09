@@ -90,25 +90,25 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href=""><span class="badge badge-info">Windows 8</span></a>
+                                <li><a href=""><span class="badge badge-info">费城</span></a>
                                 </li>
-                                 <li><a href=""><span class="badge badge-info">C#</span></a>
+                                 <li><a href=""><span class="badge badge-info">纽约</span></a>
                                 </li>
-                                 <li><a href=""><span class="badge badge-info">Windows Forms</span></a>
+                                 <li><a href=""><span class="badge badge-info">特拉华</span></a>
                                 </li>
-                                 <li><a href=""><span class="badge badge-info">WPF</span></a>
+                                 <li><a href=""><span class="badge badge-info">凤凰城</span></a>
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul class="list-unstyled">
-                                <li><a href=""><span class="badge badge-info">Bootstrap</span></a>
+                                <li><a href=""><span class="badge badge-info">Skiing/Snowboarding</span></a>
                                 </li>
-                                 <li><a href=""><span class="badge badge-info">Joomla!</span></a>
+                                 <li><a href=""><span class="badge badge-info">旅游</span></a>
                                 </li>
-                                 <li><a href=""><span class="badge badge-info">CMS</span></a>
+                                 <li><a href=""><span class="badge badge-info">工作</span></a>
                                 </li>
-                                 <li><a href=""><span class="badge badge-info">Java</span></a>
+                                 <li><a href=""><span class="badge badge-info">签证</span></a>
                                 </li>
                             </ul>
                         </div>

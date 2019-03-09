@@ -3,6 +3,7 @@ package com.webproject.feeds.service;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Sort;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -24,6 +25,12 @@ public class CommentServiceImpl implements CommentService {
 	public List<Comment> findByPostId(long postId) {
 		// TODO Auto-generated method stub
 		return commentRepository.findByPostId(postId);
+	}
+	
+	@Override
+	public List<Comment> findByPostIdOrderByDateCreatedDesc(long postId){
+		// TODO Auto-generated method stub
+		return commentRepository.findByPostIdOrderByDateCreatedDesc(postId);
 	}
 
 }

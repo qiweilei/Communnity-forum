@@ -28,7 +28,7 @@
 	<header>
 		<nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
 			<a class="navbar-brand" style="color: blue"
-				href="${contextPath}/home">公司名</a>
+				href="${contextPath}/home">人在美国</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarSupportedContent"
 				aria-controls="navbarSupportedContent" aria-expanded="false"

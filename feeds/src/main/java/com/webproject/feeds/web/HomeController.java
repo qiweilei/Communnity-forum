@@ -151,7 +151,7 @@ public class HomeController {
  		
  		Post post=postService.findById(id);
  		User user=userService.findByEmail(getContextUsername());
- 		model.addAttribute("commentList", commentService.findByPostId(id));
+ 		model.addAttribute("commentList", commentService.findByPostIdOrderByDateCreatedDesc(id));
  		model.addAttribute("post", post);
  		model.addAttribute("currentUser", user);
         return "post";
