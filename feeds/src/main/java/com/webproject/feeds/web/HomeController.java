@@ -111,7 +111,7 @@ public class HomeController {
     @RequestMapping(value = {"/","/home"}, method = RequestMethod.GET)
     public String Home(Model model, String error) {
     	String username=this.getContextUsername();
-    	List<Post> postlist=postService.findAllByDateCreatedAsc();
+    	List<Post> postlist=postService.findAllByDateCreatedDesc();
     	model.addAttribute("postlist", postlist);
     	model.addAttribute("username", username);
         return "home";

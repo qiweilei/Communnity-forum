@@ -115,12 +115,12 @@
 }
 
 #blog-section{margin-top:40px;margin-bottom:80px;}
-.content-title{padding:5px;background-color:#fff;}
-.content-title h3 a{color:#34495E;text-decoration:none; transition: 0.5s;}
-.content-title h3 a:hover{color:#F39C12; }
-.content-footer{background-color:#16A085;padding:10px;position: relative;}
+.content-title{padding:7px;background-color:#fff;}
+.content-title h5 a{color:#34495E;text-decoration:none; transition: 0.5s;}
+.content-title h5 a:hover{color:#F39C12; }
+.content-footer{background-color:#fff;padding:6px;position: relative;}
 .content-footer span a {
-    color: #fff;
+    color: lightseagreen;
     display: inline-block;
     padding: 6px 5px;
     text-decoration: none;
@@ -130,7 +130,7 @@
     color:#F39C12;   
 }
 aside{
-    margin-top: 30px;
+    margin-top: 10px;
     -webkit-box-shadow: 1px 4px 16px 3px rgba(199,197,199,1);
 -moz-box-shadow: 1px 4px 16px 3px rgba(199,197,199,1);
 box-shadow: 1px 4px 16px 3px rgba(199,197,199,1);}
@@ -199,6 +199,11 @@ aside .content-footer>img {
 
 
 /*recent-post-col////////////////////*/
+.widget-sidebar-top {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
 .widget-sidebar {
     background-color: #fff;
     padding: 20px;
@@ -324,4 +329,10 @@ button.accordion.active:after {
 }
 .postbottom span a:hover{     
     color:#F39C12;   
+}
+
+
+.badge-philly {
+	color: #fff;
+	background-color: #17a2b8;
 }

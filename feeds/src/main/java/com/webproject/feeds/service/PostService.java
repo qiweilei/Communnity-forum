@@ -8,7 +8,7 @@ import com.webproject.feeds.model.User;
 public interface PostService {
 	Post save(Post post);
 	List<Post> findByUser(User user);
-	List<Post> findAllByDateCreatedAsc();
+	List<Post> findAllByDateCreatedDesc();
 	Post findById(long id);
 	byte[] findPictureById(long id);
 

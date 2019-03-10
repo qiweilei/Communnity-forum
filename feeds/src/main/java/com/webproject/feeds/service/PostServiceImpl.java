@@ -27,9 +27,9 @@ public class PostServiceImpl implements PostService {
 	}
 
 	@Override
-	public List<Post> findAllByDateCreatedAsc() {
+	public List<Post> findAllByDateCreatedDesc() {
 		// TODO Auto-generated method stub
-		return PostRepository.findAll(new Sort(Sort.Direction.ASC, "dateCreated") );
+		return PostRepository.findAll(new Sort(Sort.Direction.DESC, "dateCreated") );
 	}
 
 	@Override
